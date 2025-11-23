@@ -390,7 +390,7 @@ nav a:hover {
 #hero {
     height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url('images/444.jpg') center/cover;
+        url('images/hero_cookies.png') center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
