@@ -84,30 +84,29 @@ nav {
     display: flex;
     gap: 30px;
     align-items: center;
-    margin-right: auto;
-    padding-right: 0;
+    flex: 1;
+    justify-content: flex-start;
 }
 
 .nav-right {
     display: flex;
     align-items: center;
     gap: 2rem;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 .logo {
     font-size: 3.0rem;
     color: var(--text-color);
     text-shadow: none;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     white-space: nowrap;
     letter-spacing: 2px;
-    padding: 0;
-    transition: transform 0.3s;
+    padding: 0 20px;
     line-height: 1;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 400;
+    flex: 0 0 auto;
 }
 
 .logo-link {
@@ -119,7 +118,7 @@ nav {
 }
 
 .logo:hover {
-    transform: translateX(-50%) scale(1.05);
+    transform: scale(1.05);
 }
 
 nav a {
