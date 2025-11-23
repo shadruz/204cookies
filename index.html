@@ -23,12 +23,19 @@
                 <a href="#sets" data-translate="sets">Наборы</a>
                 <a href="#postcards" data-translate="postcards">Открытки</a>
             </div>
+            
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
             <div class="logo">
                 <a href="#" class="logo-link">204 Cookies</a>
             </div>
             <div class="nav-right">
-                <a href="#about" data-translate="about">О нас</a>
-                <a href="#delivery" data-translate="delivery">Доставка</a>
+                <a href="#about" data-translate="about" class="desktop-only">О нас</a>
+                <a href="#delivery" data-translate="delivery" class="desktop-only">Доставка</a>
                 <div class="cart-icon">
                     <button class="cart-button">
                         <span data-translate="cart">Корзина</span>
@@ -56,6 +63,14 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="mobile-menu">
+                <a href="#menu" data-translate="menu">Меню</a>
+                <a href="#sets" data-translate="sets">Наборы</a>
+                <a href="#postcards" data-translate="postcards">Открытки</a>
+                <a href="#about" data-translate="about">О нас</a>
+                <a href="#delivery" data-translate="delivery">Доставка</a>
+            </div>
         </nav>
     </header>
 
@@ -72,7 +87,7 @@
             <div class="cookies-grid">
                 <div class="cookie-item">
                     <div class="cookie-image">
-                        <img src="images/s1.avif" alt="Классическое печенье">
+                        <img src="images/s1.avif" alt="Классическое печенье" loading="lazy" width="450" height="450">
                         <div class="cookie-badge" data-translate="bestseller">Бестселлер</div>
                     </div>
                     <div class="cookie-content">
@@ -88,7 +103,7 @@
 
                 <div class="cookie-item">
                     <div class="cookie-image">
-                        <img src="images/s2.avif" alt="Печенье с арахисовой пастой">
+                        <img src="images/s2.avif" alt="Печенье с арахисовой пастой" loading="lazy" width="450" height="450">
                         <div class="cookie-badge" data-translate="new">Новинка</div>
                     </div>
                     <div class="cookie-content">
@@ -104,7 +119,7 @@
 
                 <div class="cookie-item">
                     <div class="cookie-image">
-                        <img src="images/s3.avif" alt="Печенье красный бархат">
+                        <img src="images/s3.avif" alt="Печенье красный бархат" loading="lazy" width="450" height="450">
                         <div class="cookie-badge" data-translate="bestseller">Бестселлер</div>
                     </div>
                     <div class="cookie-content">
@@ -120,7 +135,7 @@
 
                 <div class="cookie-item">
                     <div class="cookie-image">
-                        <img src="images/s4.avif" alt="Печенье с M&M's">
+                        <img src="images/s4.avif" alt="Печенье с M&M's" loading="lazy" width="450" height="450">
                         <div class="cookie-badge" data-translate="bestseller">Хит продаж</div>
                     </div>
                     <div class="cookie-content">
@@ -136,7 +151,7 @@
 
                 <div class="cookie-item">
                     <div class="cookie-image">
-                        <img src="images/s5.avif" alt="Печенье с белым шоколадом">
+                        <img src="images/s5.avif" alt="Печенье с белым шоколадом" loading="lazy" width="450" height="450">
                         <div class="cookie-badge" data-translate="new">Новинка</div>
                     </div>
                     <div class="cookie-content">
@@ -152,7 +167,7 @@
 
                 <div class="cookie-item">
                     <div class="cookie-image">
-                        <img src="images/s6.avif" alt="Печенье с орео">
+                        <img src="images/s6.avif" alt="Печенье с орео" loading="lazy" width="450" height="450">
                         <div class="cookie-badge" data-translate="bestseller">Бестселлер</div>
                     </div>
                     <div class="cookie-content">
@@ -173,7 +188,7 @@
             <div class="sets-container">
                 <div class="set-item">
                     <div class="set-image">
-                        <img src="images/4.jpg" alt="Набор из 4 видов">
+                        <img src="images/4.jpg" alt="Набор из 4 видов" loading="lazy">
                     </div>
                     <h3 data-translate="small_set">Малый набор (4 вида)</h3>
                     <p data-translate="perfect_small_gift">Идеально для небольшого подарка</p>
@@ -182,7 +197,7 @@
                 </div>
                 <div class="set-item">
                     <div class="set-image">
-                        <img src="images/6.jpg" alt="Набор из 6 видов">
+                        <img src="images/6.jpg" alt="Набор из 6 видов" loading="lazy">
                     </div>
                     <h3 data-translate="medium_set">Средний набор (6 видов)</h3>
                     <p data-translate="perfect_medium_gift">Идеально для подарка или семейного ужина</p>
@@ -191,7 +206,7 @@
                 </div>
                 <div class="set-item">
                     <div class="set-image">
-                        <img src="images/8.jpg" alt="Набор из 8 видов">
+                        <img src="images/8.jpg" alt="Набор из 8 видов" loading="lazy">
                     </div>
                     <h3 data-translate="large_set">Большой набор (8 видов)</h3>
                     <p data-translate="perfect_large_gift">Идеально для большого торжества или подарка</p>
